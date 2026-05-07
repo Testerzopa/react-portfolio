@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './detail.css'
 import logo from './img/logo.jpg'
 import { FaHtml5 } from "react-icons/fa";
@@ -53,4 +54,25 @@ function Detail(){
     )
 }
 
+=======
+import './detail.css'
+
+function Detail(){
+    return(
+        <div id="home">
+            <div className="banner-container">
+            <div className="banner-header">
+                <h1>I'm Teekawin</h1>
+                <h2>Beginner Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel itaque, eius aspernatur aut ullam ea,<br/>
+                tenetur eaque unde nostrum possimus inventore, deleniti blanditiis magni?<br/> Laudantium placeat enim architecto in?</p>
+            </div>
+            
+        </div>
+        </div>
+        
+    )
+}
+
+>>>>>>> d40e8c5c95f28d784d479359fc7e6b372bbd6475
 export default Detail

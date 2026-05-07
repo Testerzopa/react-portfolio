@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-container{
     background-color: black;
     height: 30vh;
@@ -24,4 +25,32 @@
   display: flex;
   justify-content: center;
   margin: 6vh;
+=======
+.contact-container{
+    background-color: black;
+    height: 30vh;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.icons a {
+  color: white;
+}
+
+.icons a:hover {
+  color: #00bfff;
+  transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 6vh;
+>>>>>>> d40e8c5c95f28d784d479359fc7e6b372bbd6475
 }
