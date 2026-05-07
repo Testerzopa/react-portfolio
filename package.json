@@ -11,12 +11,10 @@
   },
   "dependencies": {
     "react": "^19.2.4",
-<<<<<<< HEAD
     "react-dom": "^19.2.4",
-    "react-icons": "^5.6.0"
-=======
+    "react-icons": "^5.6.0",
     "react-dom": "^19.2.4"
->>>>>>> d40e8c5c95f28d784d479359fc7e6b372bbd6475
+
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
