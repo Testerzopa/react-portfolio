@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.banner-container{
+    height: 60vh;  
+}
+
+.banner-header{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+}
+
+.banner-detail{
+    color: white;
+}
+
+.img-header {
+    box-shadow: 0 0 80px #38BDF8;
+}
+
+.banner-btn-work{
+    margin-top: 20px;
+}
+
+.banner-btn-contact {
+    padding:14px 28px;
+    border:none;
+    border-radius:12px;
+    background:#38BDF8;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 0 20px #38BDF8;
+}
+
+.banner-btn-contact a{
+    text-decoration: none;
+}
+
+.banner-btn-contact:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 35px #38BDF8;
+}
+
+.banner-btn-viewwork{
+    padding:14px 28px;
+    border-radius:12px;
+    border:2px solid #38BDF8;
+    background:transparent;
+    color:#38BDF8;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.banner-btn-viewwork:hover{
+    background:#38BDF8;
+    color:white;
+    transform:translateY(-4px);
+}
+
+.banner-icon {
+    margin-top: 20px;
+}
+
+.banner-html{
+    width: 30px;
+    height: 30px;
+}
+
+.banner-css{
+    width: 30px;
+    height: 30px;
+}
+
+.banner-js{
+    width: 30px;
+    height: 30px;
+}
+
+.banner-react{
+    width: 30px;
+    height: 30px;
+}
