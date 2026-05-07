@@ -1,4 +1,3 @@
-
 import './detail.css'
 import logo from './img/logo.jpg'
 import { FaHtml5 } from "react-icons/fa";
