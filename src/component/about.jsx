@@ -1,6 +1,7 @@
 import './about.css'
 import logo from './img/logo.jpg'
 import promptlearn from './img/promptlearn.png'
+import resumeai from './img/resumeai.png'
 function About(){
     return(
         <div id="about">
@@ -15,23 +16,31 @@ function About(){
                 </div>
             </div>
 
-            <div className="project-section">
+            <div id='project' className="project-section">
                 <div className="project-section-container">
-                    <h1>What project can I do</h1>
-                
+                    <h1 className='project-header-one'>What project can I do</h1>
+
                 
 
                     <div className='project-result'>
                         <div className="project-container">
                             <div className="project-promptlearnchi">
-                                <img className='img-promptlearnchi' src={promptlearn} alt="" style={{width:410, height:200}}/>
+                                <a href="https://testerzopa.github.io/promtlearnchi/" target="_blank"><img className='img-promptlearnchi' src={promptlearn} alt="" style={{width:406, height:200}}/></a>
                                 <h3>PromtLearnChi</h3>
                                 <p>UI/UX Responsive</p>
+                                <div className="project-promptlearnchi-btn">
+                                    <a href="https://testerzopa.github.io/promtlearnchi/" target="_blank"><button className='project-btn-demo'>View Demo</button></a>
+                                    <a href="https://github.com/Testerzopa/promtlearnchi" target="_blank"><button className='project-btn-github'>View Github</button></a>
+                                </div>
                             </div>
 
                             <div className="project-resumeai">
-                                <img src="" alt="" />
+                                <a href="https://github.com/Testerzopa/resume-thai-ai" target="_blank"><img className='img-resumeai' src={resumeai} alt="" style={{width:406, height:200}}/></a>
                                 <h3>ResumeAI</h3>
+                                <p>React State</p>
+                                <div className="project-resumeai-btn">
+                                    <a href="https://github.com/Testerzopa/resume-thai-ai" target="_blank"><button className='project-btn-github'>View Github</button></a>
+                                </div>
                             </div>
                         </div>    
                     </div>

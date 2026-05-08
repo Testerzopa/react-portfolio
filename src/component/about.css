@@ -23,17 +23,20 @@
 }
 
 .project-section{
-    background-color: rgb(11, 10, 10);
     height: 80vh;
 }
 
 .project-section-container{
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
 .project-header {
     margin-left: 100px;
+}
+
+.project-header-one{
+   margin-top: 40px;
 }
 
 .project-container {
@@ -47,14 +50,81 @@
 }
 
 .project-promptlearnchi{
-    background-color: rgb(74, 38, 38);
-    border-radius: 10px;
+    background: #1e1e1e;
+    overflow: hidden;
+    border-radius: 16px;
     text-align: center;
-    height: 300px;
+    height: 330px;
     width: 27%;
     transition: 0.3s ease;
+    color: white;
+}
+
+.project-promptlearnchi-btn{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.project-btn-demo {
+    background-color: #00d2ff;
+    border: none;
+    color: black;
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-btn-demo:hover{
+    background-color: #9ad6e3;
+}
+
+.project-btn-github{
+    background: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid aqua;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-btn-github:hover{
+    background-color: rgb(215, 239, 239);
+    color: black;
+    border: 1px solid white;
 }
 
 .project-promptlearnchi:hover{
+    transform: translateY(-8px);
+}
+
+.img-resumeai{
+    border-radius: 10px;
+}
+
+.project-resumeai{
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    text-align: center;
+    height: 330px;
+    width: 27%;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.project-resumeai-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.project-resumeai:hover{
     transform: translateY(-8px);
 }

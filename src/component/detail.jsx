@@ -12,8 +12,8 @@ function Detail(){
                         <p>Website | Landing Page | Portfolio</p>
 
                         <div className='banner-btn-work'>
-                            <button className='banner-btn-contact'><a href="#contact">Let's Talk</a></button>
-                            <button className='banner-btn-viewwork'>View Work</button>
+                            <a href="#contact"><button className='banner-btn-contact'>Let's Talk</button></a>
+                            <a href="#project"><button className='banner-btn-viewwork'>View Work</button></a>
                         </div>
                         
                     </div>
